@@ -615,21 +615,20 @@ a.button:nth-child(2)::before{
     animation: mysql 13s;
 }
 
-.skill-bar .bar .hds{
-    width: 100%;
-    animation: hds 14s;
-}
-
 .skill-bar .bar .gh{
     width: 100%;
-    animation: gh 15s;
+    animation: mysql 14s;
 }
 
 .skill-bar .bar .pt{
     width: 100%;
-    animation: pt 16s;
+    animation: mysql 15s;
 }
 
+.skill-bar .bar .hds{
+    width: 100%;
+    animation: hds 14s;
+}
 
 
 /*Inicio skill left*******************************************************************************/
@@ -733,6 +732,24 @@ a.button:nth-child(2)::before{
     }
 }
 
+@keyframes gh {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes pt {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
 @keyframes hds {
     0%{
         width: 0%;
@@ -751,23 +768,6 @@ a.button:nth-child(2)::before{
     }
 }
 
-@keyframes gh {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 100%;
-    }
-}
-
-@keyframes pt {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 100%;
-    }
-}
 /*Fin skill left*******************************************************************************/
 
 /*HACE PARATE DE LAS HABILIDADES PROFESIONALES*/
