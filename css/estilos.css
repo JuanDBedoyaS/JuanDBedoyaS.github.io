@@ -620,6 +620,16 @@ a.button:nth-child(2)::before{
     animation: hds 14s;
 }
 
+.skill-bar .bar .gh{
+    width: 100%;
+    animation: js 15s;
+}
+
+.skill-bar .bar .pt{
+    width: 100%;
+    animation: js 16s;
+}
+
 
 
 /*Inicio skill left*******************************************************************************/
@@ -733,6 +743,24 @@ a.button:nth-child(2)::before{
 }
 
 @keyframes cs6 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes gh {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes pt {
     0%{
         width: 0%;
     }
