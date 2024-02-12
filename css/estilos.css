@@ -622,12 +622,12 @@ a.button:nth-child(2)::before{
 
 .skill-bar .bar .gh{
     width: 100%;
-    animation: js 15s;
+    animation: gh 15s;
 }
 
 .skill-bar .bar .pt{
     width: 100%;
-    animation: js 16s;
+    animation: pt 16s;
 }
 
 
