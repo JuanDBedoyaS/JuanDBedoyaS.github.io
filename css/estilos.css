@@ -383,6 +383,7 @@ a.button:nth-child(2)::before{
     margin-bottom: 20px;
 }
 
+/*estilos de sobremi en parrafo*/
 .sobremi .contenido-seccion p span{
     color: #bdbdbd;
     font-weight: bold;
